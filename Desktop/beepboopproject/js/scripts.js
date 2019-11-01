@@ -3,23 +3,24 @@ inputNumbers = [];
 sounds = [];
 function beepBoop(userInput) {
 
-for (i = 0; i <= userInput; i++) {
-  arrNumbers.push(i);
-};
+for (i = 0; i < userInput; i++) {
+  sounds.push(i);
+}
 
 // inputNumbers.forEach(function(){
- if(userInput.includes(1)) {
-  sounds.push(i,"Beep!");
-  console.log(arrNumbers);
-} else if(i === 2){
+ if(userInput === 1) {
+  sounds.push("Beep!");
+  console.log(sounds);
+} else if(userInput === 2){
   sounds.push(i,"Boop!");
-} else if (i === 3) {
-  arrNumbers.push("I'm sorry, Dave. I'm afraid I can't do that.");
-  console.log(arrNumbers);
+  console.log(sounds);
+} else if (userInput === 3) {
+  sounds.push("I'm sorry, Dave. I'm afraid I can't do that.");
+  console.log(sounds);
 } else {
 }
-});
 }
+
 
 
 
