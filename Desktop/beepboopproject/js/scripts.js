@@ -1,10 +1,11 @@
 
-inputNumbers = [];
+inputNumbers = sounds.split("");
 sounds = [];
 function beepBoop(userInput) {
 
 for (i = 0; i < userInput; i++) {
   sounds.push(i);
+  console.log(sounds);
 }
 
 // inputNumbers.forEach(function(){
@@ -18,6 +19,8 @@ for (i = 0; i < userInput; i++) {
   sounds.push("I'm sorry, Dave. I'm afraid I can't do that.");
   console.log(sounds);
 } else {
+  return inputNumbers
+  console.log(inputNumbers);
 }
 }
 
