@@ -1,20 +1,23 @@
 
-
 arrNumbers = [];
 function beepBoop(userInput) {
 
-for (i = 0; i < userInput; i++) {
+for (i = 0; i <= userInput; i++) {
   arrNumbers.push(i);
 };
 
-arrNumbers.forEach(function(){
- if(userInput === 3){
+sounds.forEach(function(i){
+
+ if(userInput === 1) {
   arrNumbers.push("Beep!");
   console.log(arrNumbers);
-} else if(userInput === 2){
+} else if(i === 2){
   arrNumbers.push("Boop!");
-} else if (userInput === 1)
+} else if (i === 3) {
   arrNumbers.push("I'm sorry, Dave. I'm afraid I can't do that.");
+  console.log(arrNumbers);
+} else {
+}
 });
 }
 
