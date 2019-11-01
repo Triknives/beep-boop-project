@@ -28,6 +28,7 @@ _
 * _Clone or download Git files provided._
 * _Open with desired Text editor (I used Atom)._
 * _Set-up your own repositories, and branches to edit and add as needed._
+* _Folder within GitHub labeled "beepboopproject" is the CORRECT path to project files.
 
 ## Known Bugs
 
