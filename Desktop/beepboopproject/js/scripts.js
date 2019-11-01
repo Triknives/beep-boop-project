@@ -31,9 +31,5 @@ numbers.forEach(function(number) {
 // User Interface logic
 // $(document).ready(function() {
 //   $("#userForm").submit(function(event) {
-//
-//
-//
-//
 //   });
 // });
