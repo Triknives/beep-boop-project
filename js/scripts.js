@@ -15,20 +15,7 @@ for (i = 0; i < userInput+1; i++) {
   };
   console.log(inputString);
 };
-
-//     inputString.push(inputArray[i]);
-//     inputString.toString();
-// console.log(inputString);
-
-//   console.log(inputString);
-// } else if(inputString.includes('2')){
-//   inputString.replace(inputString[i],"boop");
-// } else if (inputString.includes('1')){
-//   inputString.replace(inputString[i],"beep");
-//
-// };
-// };
-// };
+};
 
 
 // User Interface logic
