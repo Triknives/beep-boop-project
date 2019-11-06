@@ -1,14 +1,15 @@
-# _Beep Boop Project_
+# _Beep Boop Project
 
-#### _This project takes numbers provided by a user, and returns sounds associated to specific conditions._ _11/1/2019_
+#### _This project takes numbers provided by a user, and returns sounds associated to specific conditions._ _11/1/2019
 
-#### By _**Brett Cordell**_
+#### By _**Brett Cordell**
 
 ## Description
 _This application is designed to take a user input, specifically a numeric value and return the number in a number line form, along with "beeps" and "boops" in place of values where conditions set apply (see below)._
 
 _Specs:
-* This program returns a range of numbers from 0 to the users inputted number.
+* This program takes a users number, then returns a range of numbers starting from 0 to the users inputted number. Once the input has been received, it will be put through several "filters" or "rules" that will then change numbers based on the applied rules below.
+
 * Example input: "5"  Output: "0,1,2,4,5".
 * Rules of output: 3 conditions will be assessed throughout the user's input.
 They are:
@@ -25,26 +26,26 @@ Example of expected behaviors / outputs:
 
 ## Setup/Installation Requirements
 
-* _Clone or download Git files provided._
-* _Open with desired Text editor (I used Atom)._
-* _Set-up your own repositories, and branches to edit and add as needed._
+* _Clone or download Git files provided.
+* _Open with desired Text editor (I used Atom).
+* _Set-up your own repositories, and branches to edit and add as needed.
 * _Folder within GitHub labeled "beepboopproject" is the CORRECT path to project files.
 
 ## Known Bugs
 
-_At this time there are no presented bugs that I have been able to come across. Should any bugs be encountered during your use of this project, please contact me at Cordell.desu@gmail.com and I will happily review them and work towards solutions. Please be provide information regarding location of the bug, and any context you find useful to better help the team address the bug/issue._
+_At this time there are no presented bugs that I have been able to come across. Should any bugs be encountered during your use of this project, please contact me at Cordell.desu@gmail.com and I will happily review them and work towards solutions. Please be provide information regarding location of the bug, and any context you find useful to better help the team address the bug/issue.
 
 ## Support and contact details
 
-_If you have any concerns, comments or even suggestions on how to better organize or utilize this project, please contact me at Cordell.desu@gmail.com_
+_If you have any concerns, comments or even suggestions on how to better organize or utilize this project, please contact me at Cordell.desu@gmail.com
 
 ## Technologies Used
-* _HTML_
-* _CSS_
-* _Java script._
-* _jQuery (v4.2.1)._
+* _HTML
+* _CSS
+* _Java script.
+* _jQuery (v4.2.1).
 
-_This project was tasked to better continue exploration of prior CSS and HTML knowledge while further implementing JS and jQuery to the page to better enhance site functionality. While providing opportunities to explore branching._
+_This project was tasked to better continue exploration of prior CSS and HTML knowledge while further implementing JS and jQuery to the page to better enhance site functionality. While providing opportunities to explore branching.
 
 ### License
 
