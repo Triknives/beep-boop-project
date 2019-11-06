@@ -1,4 +1,4 @@
-# _Beep Boop Project
+#_Beep Boop Project
 
 #### This project takes numbers provided by a user, and returns sounds associated to specific conditions. 11/1/2019
 
@@ -10,17 +10,18 @@ This application is designed to take a user input, specifically a numeric value 
 _Specs:
 * This program takes a users number, then returns a range of numbers starting from 0 to the users inputted number. Once the input has been received, it will be put through several "filters" or "rules" that will then change numbers based on the applied rules below.
 
-* Example input: "5"  Output: "0,1,2,4,5".
+* Example input: "5"  Output without rules applied: "0,1,2,3,4,5".
+* Example input: "5"  Output with rules applied: "0,Beep,Boop,Sorry,4,5".
 * Rules of output: 3 conditions will be assessed throughout the user's input.
 They are:
 * Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+* Numbers that contain a 3: all digits are replaced (all digits) with "Sorry"
 
 Example of expected behaviors / outputs:
-* The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 13 should be replaced with "Sorry"
 * The number 21 should be replaced with "Boop".
-* The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 32 should be replaced with "Sorry."
 
 
 
