@@ -10,19 +10,17 @@
 </head>
 <body>
   <div class="container">
-    <div class="jumbotron bg-info">
-      <h2>Welcome to Beep-BoopTron!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis orci eu lorem fermentum, at fermentum purus sodales. Nunc vitae mollis nibh. In hendrerit lectus sit amet diam volutpat, id ultricies ex faucibus. Vestibulum molestie nisl quis dui posuere, pulvinar congue dolor malesuada. </p>
+    <div class="jumbotron">
+      <h1>Welcome to Beep-BoopTron!</h1>
     </div>
+    <p>Welcome to Beep-BoopTron! Just enter a number below! We'll make a sick numberline for you and add some fun words to it! Can you find the pattern?</p>
     <form id="userForm">
-      <label for="userInput">Lets get to Beepin and Boopin!</label>
-      <br>
-      <input type="text" id="userInput" name="userInput">
+      <input type="text" id="userInput" placeholder="Enter your number here!" name="userInput">
       <button type="submit" name="button">DO IT!</button>
     </form>
 
-    <div class="resultsbox">
-      <h5><p><span id="userResults"></span></p></h5>
+    <div id="resultsbox">
+      <h5><span id="userResults"></span></h5>
     </div>
   </div>
 </body>
