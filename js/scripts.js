@@ -13,16 +13,17 @@ for (i = 0; i < userInput+1; i++) {
     } else if (inputString[i].includes("1")){;
       inputString[i] = "boop";
   };
-  console.log(inputString);
+    $(".resultsbox").hide();
 };
 };
 
-//test
 // User Interface logic
 $(document).ready(function() {
   $("#userForm").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("#userInput").val());
     var results = beepboop(userInput);
+    $("#userResults").text(inputString);
+    $(".resultsbox").show();
   });
 });
