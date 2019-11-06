@@ -39,6 +39,8 @@ form{
 
 #userResults{
   word-break: break-all;
+  letter-spacing: 2px;
+  color: rgba(66, 65, 68, 0.81);
 }
 
 input {
