@@ -9,18 +9,18 @@ _This application is designed to take a user input, specifically a numeric value
 
 _Specs:
 * This program returns a range of numbers from 0 to the users inputted number.
-* Example input: "5"  Output: "0,1,2,4,5"
-*Rules of output: 3 conditions will be assessed throughout the user's input.
+* Example input: "5"  Output: "0,1,2,4,5".
+* Rules of output: 3 conditions will be assessed throughout the user's input.
 They are:
-*Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-*Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-*Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+* Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 
 Example of expected behaviors / outputs:
-*The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-*The number 21 should be replaced with "Boop".
-*The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-_
+* The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+* The number 21 should be replaced with "Boop".
+* The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+
 
 
 ## Setup/Installation Requirements
